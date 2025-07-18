@@ -52,8 +52,8 @@ jobs:
           haxelib setup ~/haxelib
           haxelib git hxcpp https://github.com/th2l-devs/hxcpp
           haxelib git lime https://github.com/th2l-devs/lime
-          haxelib install openfl 9.3.4
-          haxelib install flixel 6.0.0
+          haxelib install openfl
+          haxelib install flixel
           haxelib install flixel-ui
           haxelib install flixel-addons
           haxelib install hxvlc 1.5.5
@@ -74,7 +74,6 @@ jobs:
           haxelib run lime config ANDROID_NDK_ROOT ${{ steps.setup-ndk.outputs.ndk-path }}
           haxelib run lime config JAVA_HOME $JAVA_HOME_17_X64
           haxelib run lime config ANDROID_SETUP true
-          haxelib set flixel 6.0.0
           
       - name: Compile
         run: haxelib run lime build android
