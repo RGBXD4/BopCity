@@ -61,6 +61,7 @@ jobs:
           haxelib install hscript-iris
           haxelib install flixel-tools
           haxelib install Sscript
+          haxelib install nape-haxe4
           haxelib install tjson
           haxelib git flxanimate https://github.com/ShadowMario/flxanimate
           haxelib git linc_luajit https://github.com/superpowers04/linc_luajit
