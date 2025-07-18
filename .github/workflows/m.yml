@@ -52,7 +52,7 @@ jobs:
           haxelib setup ~/haxelib
           haxelib git hxcpp https://github.com/th2l-devs/hxcpp
           haxelib git lime https://github.com/th2l-devs/lime
-          haxelib install openfl 9.3.3
+          haxelib install openfl 9.3.4
           haxelib install flixel 6.0.0
           haxelib install flixel-ui
           haxelib install flixel-addons
